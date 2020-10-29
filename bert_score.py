@@ -12,6 +12,7 @@ def pairwise_cos_sim(reference_matrix, candidate_matrix):
 
     return d / reference_matrix_norm / tf.transpose(candidate_matrix_norm)
 
+
 def bert_score(
     model: tf.keras.Model,
     tokenizer: BertJapaneseTokenizer,
