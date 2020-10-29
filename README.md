@@ -2,5 +2,7 @@
 ==============================
 
 ## Target
-
 論文を読んでBERT SCOREモジュールをできるだけ簡単に実装してみる．
+
+## Licence
+[MIT](https://github.com/tcnksm/tool/blob/master/LICENCE)
