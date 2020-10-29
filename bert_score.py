@@ -3,6 +3,7 @@ import numpy as np
 import pandas as pd
 from transformers import BertJapaneseTokenizer
 
+
 def pairwise_cos_sim(reference_matrix, candidate_matrix):
 
     d = reference_matrix @ tf.transpose(candidate_matrix)
